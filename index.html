@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Websites for Small Businesses</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #2563eb 0%, #3b82f6 50%, #93c5fd 100%);
+
+        }
+        .nav-gradient {
+            background: linear-gradient(90deg, #1e40af 0%, #2563eb 100%);
+            box-shadow:
+        0 -10px 15px -5px rgba(0, 0, 0, 0.1), /* top shadow */
+        0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        .form-shadow {
+  box-shadow:
+    0 -10px 15px -5px rgba(0, 0, 0, 0.08), /* top shadow */
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),   /* bottom shadow */
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);  /* additional bottom shadow */
+}
+        .btn-hover {
+            transition: all 0.3s ease;
+        }
+        .btn-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .footer-gradient {
+            background: linear-gradient(90deg, #1e40af 0%, #2563eb 100%);
+        }
+    </style>
+</head>
+<body class="min-h-screen font-sans text-gray-800 bg-gray-50">
+    <!-- Navigation -->
+    <nav class="nav-gradient text-white shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <i class="fas fa-code text-2xl"></i>
+                    <span class="font-bold text-xl">WebCraft</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="./index.html" class="hover:text-blue-200 transition">Home</a>
+                    <a href="#" class="hover:text-blue-200 transition">Services</a>
+                    <a href="#" class="hover:text-blue-200 transition">Portfolio</a>
+                    <a href="#" class="hover:text-blue-200 transition">Contact</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+    <!-- Hero Section -->
+    <!-- <section class="hero-gradient text-white py-20 md:py-32">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                We create websites for businesses without websites.
+            </h1>
+            <p class="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">
+                If you're here, we likely built one for your firm. Reach out if you'd like to claim it.
+            </p>
+        </div>
+    </section> -->
+
+    <section class="bg-gradient-to-br from-teal-500 to-indigo-700 text-white py-24 md:py-36">
+  <div class="container mx-auto px-6 text-center">
+    <h1 class="text-4xl md:text-6xl font-extrabold mb-8 leading-tight tracking-tight drop-shadow-md">
+      We create websites for businesses without websites.
+    </h1>
+    <p class="text-lg md:text-2xl max-w-2xl mx-auto opacity-95 leading-relaxed">
+      If you're here, we likely built one for your firm. Reach out if you'd like to claim it.
+    </p>
+  </div>
+</section>
+
+
+    <!-- Main Content -->
+    <br><br>
+    
+    <main class="container mx-auto px-6 py-16 md:py-24 max-w-4xl -mt-16 md:-mt-24 relative z-10">
+    <div class="bg-white rounded-xl p-8 md:p-10 form-shadow">
+        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-8 text-center">Claim Your Professional Website</h2>
+        
+        <form action="https://formsubmit.co/589888f845cb249ee76f8622f367dd97" method="POST" class="space-y-6">
+            <!-- FormSubmit Configuration -->
+            <input type="hidden" name="_next" value="https://webflick.github.io/thankyou.html">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New Website Claim Request">
+            
+            <div>
+                <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                <input type="text" id="name" name="name" required 
+                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition">
+                <div class="text-red-500 text-sm mt-1 hidden" id="name-error">Please enter your name</div>
+            </div>
+            
+            <div>
+                <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+                <input type="text" id="subject" name="subject" required 
+                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition">
+                <div class="text-red-500 text-sm mt-1 hidden" id="subject-error">Please enter a subject</div>
+            </div>
+            
+            <div>
+                <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                <input type="email" id="email" name="email" required 
+                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition">
+                <div class="text-red-500 text-sm mt-1 hidden" id="email-error">Please enter a valid email address</div>
+            </div>
+            
+            <div>
+                <label for="message" class="block text-gray-700 font-medium mb-2">Your Message</label>
+                <textarea id="message" name="message" rows="4" required 
+                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"></textarea>
+                <div class="text-red-500 text-sm mt-1 hidden" id="message-error">Please enter your message</div>
+            </div>
+            
+            <div class="pt-2">
+                <button type="submit" id="submit-btn"
+                    class="btn-hover w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-lg text-lg transition duration-300">
+                    <i class="fas fa-rocket mr-2"></i> <span id="btn-text">Send a Message</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</main>
+
+    <!-- Features Section -->
+    <section class="bg-white py-16 md:py-24">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-16">Why Claim Your Website?</h2>
+            
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div class="bg-blue-100 text-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-mobile-alt text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Mobile-Friendly</h3>
+                    <p class="text-gray-600">Your website looks great on all devices, from desktops to smartphones.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="bg-blue-100 text-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-bolt text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Fast Loading</h3>
+                    <p class="text-gray-600">Optimized for speed so your customers don't wait.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="bg-blue-100 text-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-search text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">SEO Optimized</h3>
+                    <p class="text-gray-600">Built to help you rank higher in search results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-gradient text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center space-x-4">
+                        <i class="fas fa-code text-2xl"></i>
+                        <span class="font-bold text-xl">WebCraft</span>
+                    </div>
+                    <p class="mt-2 text-blue-100">Professional websites for small businesses</p>
+                </div>
+                
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-blue-200 transition">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="hover:text-blue-200 transition">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="hover:text-blue-200 transition">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/yourusername" target="_blank" class="hover:text-blue-200 transition">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-blue-500 mt-8 pt-8 text-center text-blue-100">
+                <p>Crafted with <i class="fas fa-heart text-red-300"></i> by <span class="font-medium">WebCraft Studios</span></p>
+                <p class="mt-2 text-sm">© <span id="year"></span> All Rights Reserved</p>
+                <script>
+                  document.getElementById("year").textContent = new Date().getFullYear();
+                </script>
+            </div>
+        </div>
+    </footer>
+
+   <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('form');
+    const submitBtn = document.getElementById('submit-btn');
+    const btnText = document.getElementById('btn-text');
+    
+    // Email validation regex
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    
+    // Real-time validation
+    const fields = {
+        name: { input: document.getElementById('name'), error: document.getElementById('name-error') },
+        subject: { input: document.getElementById('subject'), error: document.getElementById('subject-error') },
+        email: { input: document.getElementById('email'), error: document.getElementById('email-error') },
+        message: { input: document.getElementById('message'), error: document.getElementById('message-error') }
+    };
+    
+    // Add event listeners for real-time validation
+    Object.keys(fields).forEach(key => {
+        const field = fields[key];
+        
+        field.input.addEventListener('blur', function() {
+            validateField(key, field);
+        });
+        
+        field.input.addEventListener('input', function() {
+            if (!field.error.classList.contains('hidden')) {
+                validateField(key, field);
+            }
+        });
+    });
+    
+    function validateField(fieldName, field) {
+        const value = field.input.value.trim();
+        let isValid = true;
+        let errorMessage = '';
+        
+        switch(fieldName) {
+            case 'name':
+                if (!value) {
+                    errorMessage = 'Please enter your name';
+                    isValid = false;
+                } else if (value.length < 2) {
+                    errorMessage = 'Name must be at least 2 characters';
+                    isValid = false;
+                }
+                break;
+                
+            case 'subject':
+                if (!value) {
+                    errorMessage = 'Please enter a subject';
+                    isValid = false;
+                } else if (value.length < 3) {
+                    errorMessage = 'Subject must be at least 3 characters';
+                    isValid = false;
+                }
+                break;
+                
+            case 'email':
+                if (!value) {
+                    errorMessage = 'Please enter your email address';
+                    isValid = false;
+                } else if (!emailRegex.test(value)) {
+                    errorMessage = 'Please enter a valid email address';
+                    isValid = false;
+                }
+                break;
+                
+            case 'message':
+                if (!value) {
+                    errorMessage = 'Please enter your message';
+                    isValid = false;
+                } else if (value.length < 10) {
+                    errorMessage = 'Message must be at least 10 characters';
+                    isValid = false;
+                }
+                break;
+        }
+        
+        if (isValid) {
+            field.error.classList.add('hidden');
+            field.input.classList.remove('border-red-500');
+            field.input.classList.add('border-gray-300');
+        } else {
+            field.error.textContent = errorMessage;
+            field.error.classList.remove('hidden');
+            field.input.classList.add('border-red-500');
+            field.input.classList.remove('border-gray-300');
+        }
+        
+        return isValid;
+    }
+    
+    // Form submission validation and handling
+    form.addEventListener('submit', function(e) {
+        let isFormValid = true;
+        
+        // Validate all fields
+        Object.keys(fields).forEach(key => {
+            const field = fields[key];
+            if (!validateField(key, field)) {
+                isFormValid = false;
+            }
+        });
+        
+        if (!isFormValid) {
+            e.preventDefault();
+            
+            // Focus on first invalid field
+            const firstError = document.querySelector('.border-red-500');
+            if (firstError) {
+                firstError.focus();
+                firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+            return;
+        }
+        
+        // Show loading state
+        submitBtn.disabled = true;
+        btnText.textContent = 'Sending...';
+        submitBtn.classList.add('opacity-75');
+        
+        // After validation passes, just redirect
+        setTimeout(function() {
+            window.location.href = './thankyou.html';
+        }, 1000);
+    });
+});
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
